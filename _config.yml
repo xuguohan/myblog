@@ -9,7 +9,7 @@ url: "http://xuguohan.github.io/myblog"
 detach:       false
 port:         4000
 host:         127.0.0.1
-baseurl:      "myblog" # does not include hostname
+baseurl:      "" # does not include hostname
 
 
 
