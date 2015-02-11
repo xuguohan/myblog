@@ -31,7 +31,8 @@ a:hover,a:active{
 	cursor: pointer;
 }
 .navWrap .nav{display: none;}
-.silderBg{
+
+.sidebarBg{
 	position: fixed;
 	left:45px;
 	height: 100%;
@@ -39,6 +40,11 @@ a:hover,a:active{
 	background-image:url('../image/silderBg.jpg');
 	background-size: cover;
 	background-position: center;
+}
+@media screen and (max-device-width:800px){
+	.sidebarBg{
+		display: none;
+	}
 }
 .page-content{margin:0 345px;}
 .page-content .wrapper{padding: 40px;}
