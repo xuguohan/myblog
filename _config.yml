@@ -1,9 +1,16 @@
 # Site settings
 title: 徐国菡
 email: xgh726@msn.cn
-description: na
-baseurl: "myblog" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://xuguohan.github.io/myblog" # the base hostname & protocol for your site
+
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+
 
 
 # Build settings
