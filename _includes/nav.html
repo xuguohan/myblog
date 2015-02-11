@@ -1,0 +1,10 @@
+<div class='navWrap'>
+    <a class='logo' href='/about' title="徐国菡"></a>
+    <div class="nav">
+	<div class="trigger">
+        {% for i in site.nav %}
+          <a class="page-link" href="{{ i.url }}">{{ i.text }}</a>
+        {% endfor %}
+      </div>
+    </div>
+</div>

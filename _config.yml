@@ -3,9 +3,20 @@ title: 徐国菡
 email: xgh726@msn.cn
 description: na
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 
 # Build settings
 markdown: kramdown
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 联系我
+    url: /contact.html
+  - text: 友情链接
+    url: /links.html
 

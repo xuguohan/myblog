@@ -1,0 +1,46 @@
+html,body{height: 100%;}
+html,body,h1,ul,li{padding: 0;margin: 0px;}
+li{list-style: none;}
+a{text-decoration: none}
+a:link{
+	color: #F44682;
+}
+a:visited{
+	color: #ccc;
+}
+a:hover,a:active{
+	color: #F03E7B;
+}
+.wrap{height: 100%}
+.home{margin-top: 50px;}
+.navWrap{
+	width:45px;
+	background: #333;
+	height:100%;
+	position: fixed;
+}
+.navWrap .logo{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-image:url('/image/user.png');
+	background-size: cover;
+	background-position: center;
+	margin-top:20px;
+	cursor: pointer;
+}
+.navWrap .nav{display: none;}
+.silderBg{
+	position: fixed;
+	left:45px;
+	height: 100%;
+	width:300px;
+	background-image:url('/image/silderBg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.page-content{margin:0 345px;}
+.page-content .wrapper{padding: 40px;}
+.post-list .post-link{padding-left: 30px;}
+.post-meta{color: #cacaca;font-size: 14px; margin:10px 0px 20px 0px;}
