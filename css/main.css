@@ -43,7 +43,7 @@ a:hover,a:active{
 }
 @media screen and (max-width:1400px){
 	.page-content{
-		margin:0 45px 0 345px;
+		margin:0 0 0 345px;
 	}
 }
 @media screen and (max-width:800px){
@@ -51,7 +51,7 @@ a:hover,a:active{
 		display: none;
 	}
 	.page-content{
-		margin:0 45px;
+		margin:0 0 0 45px;
 	}
 }
 
