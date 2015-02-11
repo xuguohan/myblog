@@ -31,7 +31,7 @@ a:hover,a:active{
 	cursor: pointer;
 }
 .navWrap .nav{display: none;}
-
+.page-content{margin:0 300px 0 345px;}
 .sidebarBg{
 	position: fixed;
 	left:45px;
@@ -41,12 +41,21 @@ a:hover,a:active{
 	background-size: cover;
 	background-position: center;
 }
-@media screen and (max-device-width:800px){
+@media screen and (max-width:1400px){
+	.page-content{
+		margin:0 45px 0 345px;
+	}
+}
+@media screen and (max-width:800px){
 	.sidebarBg{
 		display: none;
 	}
+	.page-content{
+		margin:0 45px;
+	}
 }
-.page-content{margin:0 345px;}
+
+
 .page-content .wrapper{padding: 40px;}
 .post-list .post-link{padding-left: 30px;}
 .post-meta{color: #cacaca;font-size: 14px; margin:10px 0px 20px 0px;}

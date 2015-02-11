@@ -1,8 +1,8 @@
 # Site settings
 title: 徐国菡
 email: xgh726@msn.cn
-url: "http://xuguohan.github.io/myblog/" 
-#url:      "" # does not include hostname
+#url: "http://xuguohan.github.io/myblog/" 
+url:      "" # does not include hostname
 
 
 # Serving
